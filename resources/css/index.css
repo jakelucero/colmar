@@ -1,0 +1,27 @@
+html{
+  font-size: 16px;
+}
+
+.container{
+  display: flex;
+  margin: auto;
+}
+/* Header */
+header{
+  display: flex;
+  background-color: white;
+  height: 4rem;
+}
+
+header .logo{
+  display: flex;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+}
+
+nav a{
+  padding: 1rem;
+}
