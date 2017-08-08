@@ -47,7 +47,7 @@ h1{
 
 /* Body1 */
 .body1{
-  background-color: grey;
+  background-color: #babbbc;
   display: flex;
 }
 
@@ -61,20 +61,73 @@ h2{
 }
 
 p{
-  font-size: 2rem;
+  justify-content: flex-start;
 }
 
 .button{
+  margin-top: 2rem;
   font-size: 1.5rem;
   border: 1px solid black;
-  padding: 1rem 10rem;
-  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  width: 25rem;
+  background-color: #707070;
+  color: white;
+  transition: color 0 ease-in 100ms;
+  font-family: "Montserrat:700" serif;
+}
+
+.button:hover{
+  color: black;
+  background-color: white;
+}
+
+.button:active{
+  color: blue;
+}
+
+.button:visited{
+  color: maroon;
 }
 
 .banner1{
   display: inline-flex;
-    padding-left: 1.5rem;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  padding-left: 1.5rem;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Body Pt. 2 */
+.body2 img{
+  padding: 2rem 1.5rem;
+  width: 100%;
+}
+
+.content2{
+  width: 60%
+}
+
+.banner2{
+  border: 1px grey solid;
+  margin-left: 2rem;
+  width: 40%;
+  display: inline-block;
+}
+
+.info2 img{
+  width: 35%;
+  margin: auto;
+}
+
+.info2{
+  padding-left: 1rem;
+  display: flex;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.info-content {
+  justify-content: center;
 }
