@@ -4,24 +4,77 @@ html{
 
 .container{
   display: flex;
-  margin: auto;
+  width: 100%;
 }
 /* Header */
 header{
-  display: flex;
+  display: inline-block;
   background-color: white;
   height: 4rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 header .logo{
   display: flex;
+  margin-bottom: 1rem;
+}
+
+header img{
+  display: inline-block;
+  padding-left: 1.5rem;
 }
 
 nav{
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
 }
 
 nav a{
   padding: 1rem;
+  color: black;
+}
+nav span{
+
+}
+
+header nav{
+  justify-content: flex-end;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+/* Body1 */
+.body1{
+  background-color: grey;
+  display: flex;
+}
+
+.body1 img{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+h2{
+  font-size: 4rem;
+}
+
+p{
+  font-size: 2rem;
+}
+
+.button{
+  font-size: 1.5rem;
+  border: 1px solid black;
+  padding: 1rem 10rem;
+  justify-content: center;
+}
+
+.banner1{
+  display: inline-flex;
+    padding-left: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
