@@ -143,5 +143,32 @@ h3{
 }
 
 .readmore{
-  
+
+}
+
+/* Class Offerings */
+.body3{
+  background-color: grey;
+}
+
+.header3{
+  display: block;
+}
+
+.classes{
+  display: inline-block;
+  padding: 2rem 72px;
+}
+
+.class{
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.class img{
+  height: auto;
+}
+.classcontent{
+  padding-bottom: 1.5rem;
 }
