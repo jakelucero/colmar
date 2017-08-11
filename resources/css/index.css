@@ -153,8 +153,14 @@ h3{
 
 .header3{
   display: block;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 2rem 0;
 }
 
+.header span{
+  justify-content: center;
+}
 .classes{
   display: inline-block;
   padding: 2rem 72px;
@@ -162,13 +168,35 @@ h3{
 
 .class{
   display: inline-block;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  width: 33%;
 }
 
 .class img{
   height: auto;
+  width: 100%;
 }
 .classcontent{
   padding-bottom: 1.5rem;
+}
+
+.row1{
+  display: flex;
+}
+
+.row2{
+  display: flex;
+}
+
+.classtype span{
+  padding-left: 1.5rem;
+}
+.courses span{
+  padding-left: 1.5rem;
+}
+.classcontent{
+  padding-left: 1.5rem;
 }
