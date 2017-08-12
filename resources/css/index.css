@@ -148,7 +148,7 @@ h3{
 
 /* Class Offerings */
 .body3{
-  background-color: grey;
+  background-color: #babbbc;
 }
 
 .header3{
@@ -199,4 +199,110 @@ h3{
 }
 .classcontent{
   padding-left: 1.5rem;
+}
+
+/* Body4 */
+.body4{
+  display: flex;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header4{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  display: block;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.header4 span{
+  justify-content: center;
+}
+
+.banner4{
+  display: inline-block;
+  padding-right: 1.5rem;
+  width: 60%;
+  padding-left: 1.5rem;
+}
+
+.title4{
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+  font-size: 2rem;
+  color: red;
+}
+
+.content4{
+
+}
+
+/* Side Styling */
+
+.side4{
+  display: flex;
+  width: 40%;
+  padding-top: 6.25rem;
+}
+
+.sidecontainer4{
+  display: flex;
+}
+
+.sidetitle4{
+  display:inline-block;
+}
+
+.sidecontent4{
+  display: inline-block;
+}
+
+.sideflex{
+  display: inline-block;
+}
+
+video{
+  width: 100%;
+}
+
+.sidecontainer4 img{
+  width: 35%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.sideheader4 span{
+  font-size: 2rem;
+  font-style: bold;
+  color: red;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.sidecontent4{
+  display: block;
+}
+
+.sideside4{
+  display: block;
+  padding-top: 2rem;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  width: 100%;
+  border: 1px grey solid;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.terms{
+  display: inline-block;
+}
+
+.footcontent{
+  display: flex;
 }
