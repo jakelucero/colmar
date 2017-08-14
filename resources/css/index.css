@@ -28,18 +28,17 @@ header img{
 
 nav{
   display: inline-block;
+  padding-top: 1.5rem;
 }
 
 nav a{
   padding: 1rem;
   color: black;
 }
-nav span{
 
-}
-
-header nav{
-  justify-content: flex-end;
+.container nav{
+  margin-left: auto;
+  justify-content: center;
 }
 
 h1{
@@ -154,6 +153,10 @@ h3{
 
 .readmore{
   padding-top: .5rem;
+}
+
+.dummy{
+  padding-left: 2rem;
 }
 
 /* Class Offerings */
@@ -339,4 +342,31 @@ footer{
 
 .footcontent{
   display: flex;
+}
+
+.footcontent .copywrite{
+  margin-right: auto;
+}
+
+/* Mobile CSS */
+.mobileheader{
+  height: 4rem;
+  display: flex;
+}
+.mobileheaderimages{
+  justify-content: center;
+}
+
+/* Mobile Changes */
+@media only screen and (max-width: 480px){
+  .container{
+    display: none;
+  }
+
+  }
+
+@media only screen and (min-width: 480px){
+  .mobileheader{
+    display: none;
+  }
 }
