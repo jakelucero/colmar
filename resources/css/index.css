@@ -1,7 +1,7 @@
 @media only screen and (min-width: 480px){
 html{
   font-size: 16px;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Ovo', serif;
 }
 
 .container{
@@ -97,8 +97,11 @@ p{
   justify-content: center;
   flex-direction: column;
 }
+.banner1 span{
+  font-size: 1.5rem;
+}
 
-/* Body Pt. 2 */
+/* Body2 */
 .body2 img{
   padding: 2rem 1.5rem;
   width: 100%;
@@ -109,11 +112,13 @@ p{
 }
 
 .banner2{
-  border: 1px grey solid;
+  background-color: #babbbc;
   margin-left: 2rem;
   width: 40%;
   display: inline-block;
+  margin-bottom: 2rem;
 }
+
 
 .info2 img{
   width: 35%;
@@ -128,7 +133,8 @@ p{
   padding-left: 1rem;
   display: flex;
   align-items: center;
-
+  background-color: white;
+  margin-bottom: .5rem;
 }
 
 .title{
@@ -145,11 +151,13 @@ p{
 h3{
   font-size: 3.5rem;
   font-weight: bold;
+  padding-left: 1rem;
 }
 
 .quote{
   font-size: .75rem;
   padding-bottom: 2rem;
+  padding-left: 1rem;
 }
 
 .readmore{
@@ -158,6 +166,10 @@ h3{
 
 .dummy{
   padding-left: 2rem;
+}
+
+.content2 p{
+  padding-left: 1rem;
 }
 
 /* Class Offerings */
@@ -329,7 +341,7 @@ video{
 
 /* Footer */
 footer{
-  display: flex;
+  display: block;
   width: 100%;
   border: 1px grey solid;
   padding-top: 1rem;
@@ -348,6 +360,8 @@ footer{
 .footcontent .copywrite{
   margin-right: auto;
 }
+
+
 }
 
 /* Mobile CSS */
@@ -356,13 +370,27 @@ footer{
   display: flex;
   margin-left: 12.5rem;
 }
+
 .mobileheaderimages{
   justify-content: center;
 }
 
+.classbox{
+  padding: 1rem 1.5rem;
+  margin-bottom: .5rem;
+  border: 1px grey solid;
+  background-color: #babbbc;
+  font-size: 1.25rem;
+}
+
+.mobileclass{
+  padding-bottom: 2rem;
+}
 /* Mobile Changes */
 @media only screen and (max-width: 480px){
-
+  body{
+   font-family: 'Ovo', serif;
+  }
   header .container{
     display: none;
   }
@@ -380,7 +408,7 @@ footer{
   }
 
   .body1 img{
-    width: 480px;
+    width: 100%;
   }
 
   h2{
@@ -411,6 +439,7 @@ footer{
 
   .info2 img{
     padding: 1rem 0rem;
+    width: 100%;
   }
 
   .info-content{
@@ -434,8 +463,47 @@ footer{
   .body3{
     display: none;
   }
-
-  .mobile4{
+  .header4{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .title4{
     display: none;
   }
+
+  .content4{
+    display: none;
   }
+
+  .side4{
+    display: none;
+  }
+
+  .banner4 video{
+    padding-bottom: 1.5rem;
+    width: 480px;
+  }
+
+  footer{
+    padding: 1rem;
+  }
+
+  .terms{
+    display: none;
+  }
+
+  }
+
+  @media only screen and (min-width: 480px){
+    .mobile4{
+      display: none;
+    }
+    .mobileheader{
+      display: none;
+    }
+    .mobileclass{
+      display: none;
+    }
+}
